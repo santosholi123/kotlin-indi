@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="light_blue">#E3F2FD</color>
+    <color name="image_background">#BBDEFB</color>
+    <color name="text_background">#FFFFFF</color>
+    <color name="edit_button_background">#E3F2FD</color>
+    <color name="purple">#160015</color>
+    <color name="LightPurple">#522C5D</color>
+    <color name="hevy">#845162</color>
+</resources>

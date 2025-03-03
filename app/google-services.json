@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077264330175",
+    "project_id": "kotlin-individual-60d6a",
+    "storage_bucket": "kotlin-individual-60d6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077264330175:android:0cdd419c096a5b857ac50a",
+        "android_client_info": {
+          "package_name": "com.example.booktok"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsof4gpzePie9geDDsdNyKVuBquhFKG-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

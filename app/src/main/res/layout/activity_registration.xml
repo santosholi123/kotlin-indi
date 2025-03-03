@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/backarrow"
+
+        />
+
+    <TextView
+        android:id="@+id/tvSignInTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Welcome"
+        android:textColor="#00D42E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter your Username"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+
+        android:padding="12dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter your Phone Number"
+        android:inputType="textEmailAddress"
+
+        android:padding="12dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter new  password"
+
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="@color/black" />
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/ConformPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+
+        android:padding="12dp"
+        android:textColor="@color/black" />
+
+    <!-- Sign In Button -->
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Sign In"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>
